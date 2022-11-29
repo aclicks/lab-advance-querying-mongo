@@ -84,7 +84,7 @@ limit:
 
 ### 11. All the companies founded on the second semester of the year. Limit your search to 1000 companies.
 
-query: {founded_month:{$ne:null}, $and: [{founded_month: {$gte: 6, $lte: 12}}]}
+query: {founded_month:{$ne:null}, $and: [{founded_month: {$gte: 7, $lte: 12}}]}
 projection: 
 sort: 
 skip: 
